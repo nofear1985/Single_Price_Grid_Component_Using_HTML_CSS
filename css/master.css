@@ -65,6 +65,10 @@ main {
         margin: auto;
     }
 }
+main .price-card {
+    box-shadow: 0 0 40px 6px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+}
 main .price-card .up {
     background-color: white;
     padding: 3rem;
@@ -72,34 +76,19 @@ main .price-card .up {
 }
 main .price-card .up h1 {
     color:  var(--Cyan);
-    padding-bottom: 1.5rem;
-}
-@media (max-width: 768px) {
-    main .price-card .up h1 {
-        font-size:2rem;
-    }
+    padding-bottom: 2rem;
 }
 main .price-card .up h2 {
     color: var(--Bright-Yellow);
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: bold;
-}
-@media (max-width: 768px) {
-    main .price-card .up h2 {
-        font-size: 1.6rem;
-    }
 }
 main .price-card .up h3 {
     color: var(--Grayish-Blue);
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     font-weight: normal;
     padding-top: 1rem;
     line-height: 1.6;
-}
-@media (max-width: 768px) {
-    main .price-card .up h3 {
-        font-size: 1.4rem;
-    }
 }
 main .price-card .down {
     display: flex;
@@ -115,7 +104,6 @@ main .price-card .down .box1 {
     flex-basis: 50%;
     padding: 3rem;
     border-radius: 0 0 0 8px;
-    width: 100%;
 }
 @media (max-width: 768px) {
     main .price-card .down .box1 {
@@ -124,14 +112,9 @@ main .price-card .down .box1 {
 }
 main .price-card .down .box1 h4 {
     color: white;
-    font-size: 1.35rem;
+    font-size: 1.6rem;
     font-weight: 400;
-    padding-bottom: 1.5rem;
-}
-@media (max-width: 768px) {
-    main .price-card .down .box1 h4 {
-        font-size: 1.6rem;
-    }
+    padding-bottom: 1.6rem;
 }
 main .price-card .down .box1 h5 {
     color: white;
@@ -143,25 +126,15 @@ main .price-card .down .box1 h5 span {
     color: white;
     font-weight: 400;
     opacity: 70%;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     padding-left: 1rem;
-}
-@media (max-width: 768px) {
-    main .price-card .down .box1 h5 span {
-        font-size: 1.4rem;
-    }
 }
 main .price-card .down .box1 h6 {
     color: white;
     font-weight: 400;
     opacity: 80%;
-    font-size: 1.2rem;
-    padding-top: 0.5rem;
-}
-@media (max-width: 768px) {
-    main .price-card .down .box1 h6 {
-        font-size: 1.4rem;
-    }
+    font-size: 1.4rem;
+    padding-top: 1rem;
 }
 main .price-card .down .box1 a {
     display: flex;
@@ -175,15 +148,13 @@ main .price-card .down .box1 a {
     color: white;
     border-radius: 5px;
     text-align: center;
-    font-size: 1.3rem;
-    margin-top: 3.4rem;
+    font-size: 1.4rem;
+    margin-top: 5rem;
 }
 @media (max-width: 768px) {
     main .price-card .down .box1 a {
         width: 24rem;
         margin-top: 2.5rem;
-        font-size: 1.4rem;
-        text-align: center;
     }
 }
 main .price-card .down .box2 {
@@ -199,24 +170,14 @@ main .price-card .down .box2 {
 }
 main .price-card .down .box2 h3 {
     color: white;
-    font-size: 1.35rem;
+    font-size: 1.6rem;
     font-weight: 400;
     padding-bottom: 1.5rem;
-}
-@media (max-width: 768px) {
-    main .price-card .down .box2 h3 {
-        font-size: 1.6rem;
-    }
 }
 main .price-card .down .box2 p {
     color: white;
     opacity: 70%;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.5;
     font-weight: 400;
-}
-@media (max-width: 768px) {
-    main .price-card .down .box2 p {
-        font-size: 1.4rem;
-    }
 }
